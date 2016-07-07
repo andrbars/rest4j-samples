@@ -14,7 +14,7 @@ import org.andrbars.api.domain.Item;
 import org.andrbars.api.exception.SampleException;
 import org.andrbars.rest4j.RestConst;
 
-@Path("/items")
+@Path(ISample.RESOURCE)
 @Produces(RestConst.APPLICATION_JSON_UTF_8)
 @Consumes(MediaType.APPLICATION_JSON)
 public class Sample implements ISample

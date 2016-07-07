@@ -22,6 +22,8 @@ import org.andrbars.api.domain.Item;
 public interface ISample
 {
 
+	public static final String RESOURCE = "/items";
+
 	@GET
 	@Produces(RestConst.APPLICATION_JSON_UTF_8)
 	@Consumes(MediaType.APPLICATION_JSON)

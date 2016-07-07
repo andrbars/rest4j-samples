@@ -11,7 +11,8 @@ public class Client
 
 	public static void main(String[] args)
 	{
-		ISample client = RestProxy.get(ISample.class, "http://localhost:8080/server/items");
+		ISample client = RestProxy.get(ISample.class,
+			"http://localhost:8080/server" + ISample.RESOURCE);
 
 		Item response = client.getItem(1L);
 

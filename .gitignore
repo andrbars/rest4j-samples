@@ -27,3 +27,7 @@ nbproject/*
 /server/target/
 /api/target/
 /client/target/
+/client/nbactions.xml
+/server/nb-configuration.xml
+/api/nb-configuration.xml
+/client/nb-configuration.xml
